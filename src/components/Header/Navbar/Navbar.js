@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import BookButton from '../../Buttons/BookButton';
 
 export default class Navbar extends React.Component {
   render() {
@@ -8,19 +9,19 @@ export default class Navbar extends React.Component {
       <nav className={this.props.isOpen ? "navbar visible" : "navbar"}>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/" exact>Home</NavLink>
           </li>
           <li>
-            <Link to="/rooms">Rooms</Link>
+            <NavLink to="/rooms">Rooms</NavLink>
           </li>
           <li>
-            <Link to="/amenities">Amenities</Link>
+            <NavLink to="/amenities">Amenities</NavLink>
           </li>
           <li>
-            <Link to="/amenities">Nearby Activities</Link>
+            <NavLink to="/nearby-activities">Nearby Activities</NavLink>
           </li>
         </ul>
-        <button>book</button>
+        <BookButton />
       </nav>
     );
   };

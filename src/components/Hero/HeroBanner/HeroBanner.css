@@ -1,0 +1,38 @@
+.heroBanner {
+  position: relative;
+  display: inline-flex;
+  flex-flow: column;
+  color: white;
+  max-width: 460px;
+  background: rgba(255,255,255,0.8);
+  padding: 2rem;
+  transform: translateX(-50%);
+}
+
+.heroBanner:before {
+  content: '';
+  position: absolute;
+  top: -.5rem;
+  right: -.5rem;
+  bottom: -.5rem;
+  left: -.5rem;
+  border: 1px solid white;
+}
+
+.heroBanner h1 {
+  text-transform: capitalize;
+  margin-bottom: .25em;
+}
+
+.heroBanner hr {
+  border: none;
+  height: 2px;
+  background: var(--saltwater);
+  width: 100px;
+  margin-bottom: 1em;
+}
+
+.heroBanner h3 {
+  text-transform: capitalize;
+  color: var(--saltwater);
+}

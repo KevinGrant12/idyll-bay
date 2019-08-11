@@ -1,14 +1,19 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Beth+Ellen&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+  font-family: 'Karla', sans-serif;
 }
 
 :root {
   --bronzer: #CDB085;
   --saltwater: #233167;
+  --sun: #fcab11;
   --sunset: #F065A0;
   --water: #48C3CD;
 }
@@ -19,7 +24,8 @@ body {
 
 h1 {
   font-size: 3em;
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
+  line-height: 1;
 }
 
 h2 {
@@ -28,6 +34,7 @@ h2 {
 
 h3 {
   font-size: 1.5em;
+  margin-bottom: .5em;
 }
 
 h4 {
@@ -36,6 +43,13 @@ h4 {
 
 h5 {
   font-size: 1em;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .container {
