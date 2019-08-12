@@ -4,6 +4,7 @@ import Hero from '../components/Hero/Hero';
 import HeroBanner from '../components/Hero/HeroBanner/HeroBanner';
 import FrameButton from '../components/Buttons/FrameButton';
 import Description from '../components/Description/Description';
+import Services from '../components/Services/Services';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         </HeroBanner>
       </Hero>
       <Description />
+      <Services />
     </React.Fragment>
   );
 };

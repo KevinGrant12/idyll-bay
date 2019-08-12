@@ -26,13 +26,16 @@
   border: 2px solid var(--water);
 }
 
-.description h3 {
+.description h2 {
   text-align: center;
+  color: var(--saltwater);
 }
 
-.description h5 {
+.description h3 {
   text-align: center;
   margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: var(--saltwater);
 }
 
 .description p {

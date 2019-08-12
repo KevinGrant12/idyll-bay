@@ -36,3 +36,9 @@
   text-transform: capitalize;
   color: var(--saltwater);
 }
+
+@media (max-width: 991px) {
+  .heroBanner {
+    transform: none;
+  }
+}

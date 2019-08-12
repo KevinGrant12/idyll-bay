@@ -39,6 +39,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
+        "Minibar",
         "Comfortable beds"
       ],
       images: [
@@ -96,6 +97,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
+        "Minibar",
         "Comfortable beds"
       ],
       images: [
@@ -153,6 +155,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
+        "Minibar",
         "Comfortable beds"
       ],
       images: [
@@ -210,6 +213,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
+        "Minibar",
         "Comfortable beds"
       ],
       images: [
@@ -267,6 +271,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
+        "Minibar",
         "Comfortable beds"
       ],
       images: [
@@ -324,6 +329,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
+        "Minibar",
         "Comfortable beds"
       ],
       images: [
@@ -381,6 +387,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
+        "Minibar",
         "Comfortable beds"
       ],
       images: [
@@ -438,6 +445,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
+        "Minibar",
         "Comfortable beds"
       ],
       images: [
@@ -495,6 +503,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
+        "Minibar",
         "Comfortable beds"
       ],
       images: [
@@ -552,6 +561,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
+        "Minibar",
         "Comfortable beds"
       ],
       images: [
@@ -609,6 +619,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
+        "Minibar",
         "Comfortable beds"
       ],
       images: [
@@ -666,6 +677,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
+        "Minibar",
         "Comfortable beds"
       ],
       images: [
@@ -723,6 +735,7 @@ export default [
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
+        "Minibar",
         "Comfortable beds"
       ],
       images: [

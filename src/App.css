@@ -30,6 +30,7 @@ h1 {
 
 h2 {
   font-size: 2em;
+  margin-bottom: .5em;
 }
 
 h3 {
@@ -53,8 +54,30 @@ button {
 }
 
 .container {
-  position: relative;
-  width: 90vw;
-  max-width: 1140px;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
 }
