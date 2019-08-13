@@ -1,0 +1,41 @@
+.room {
+  position: relative;
+  width: 31%;
+  margin-bottom: 2rem;
+}
+
+.room-image {
+  position: relative;
+  overflow: hidden;
+  height: 12rem;
+}
+
+.room-image img {
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+}
+
+.room-module-price {
+  position: absolute;
+  top: 0;
+  left: 0; 
+  background: rgba(35, 49, 103, 0.8);
+  color: white;
+  border-radius: 0 0 10px 0;
+  padding: .25rem;;
+}
+
+.room-module-price h6 {
+  font-size: 1rem;
+}
+
+.room-module-price p {
+  font-size: .75rem;
+}
+
+@media (max-width: 767px) {
+  .room {
+    width: 100%;
+  }
+}

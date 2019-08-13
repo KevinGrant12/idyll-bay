@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Amenities from './pages/Amenities';
+import Dining from './pages/Dining';
 import Home from './pages/Home';
-import NearbyActivites from './pages/NearbyActivities';
+import Experiences from './pages/Experiences';
 import Rooms from './pages/Rooms';
 import Error from './pages/Error';
 import SingleRoom from './pages/SingleRoom';
@@ -17,8 +17,8 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/rooms/" exact component={Rooms} />
         <Route path="/rooms/:slug" component={SingleRoom} />
-        <Route path="/amenities/" component={Amenities} />
-        <Route path="/nearby-activities/" component={NearbyActivites} />
+        <Route path="/dining/" component={Dining} />
+        <Route path="/experiences/" component={Experiences} />
         <Route component={Error}/>
       </Switch>
     </React.Fragment>

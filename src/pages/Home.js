@@ -5,6 +5,7 @@ import HeroBanner from '../components/Hero/HeroBanner/HeroBanner';
 import FrameButton from '../components/Buttons/FrameButton';
 import Description from '../components/Description/Description';
 import Services from '../components/Services/Services';
+import FeaturedRooms from '../components/FeaturedRooms/FeaturedRooms';
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       </Hero>
       <Description />
       <Services />
+      <FeaturedRooms />
     </React.Fragment>
   );
 };

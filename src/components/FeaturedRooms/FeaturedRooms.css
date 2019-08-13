@@ -1,0 +1,22 @@
+.featuredRooms {
+  padding: 4rem 0 2rem;;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.featuredRooms h2 {
+  color: var(--saltwater);
+  margin-bottom: 4rem;
+}
+
+.featuredRooms .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .featuredRooms .container {
+    flex-flow: column;
+  }
+}

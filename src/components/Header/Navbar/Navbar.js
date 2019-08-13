@@ -15,10 +15,10 @@ export default class Navbar extends React.Component {
             <NavLink to="/rooms">Rooms</NavLink>
           </li>
           <li>
-            <NavLink to="/amenities">Amenities</NavLink>
+            <NavLink to="/experiences">Experience</NavLink>
           </li>
           <li>
-            <NavLink to="/nearby-activities">Nearby Activities</NavLink>
+            <NavLink to="/dining">Dining</NavLink>
           </li>
         </ul>
         <BookButton />
