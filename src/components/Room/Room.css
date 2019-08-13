@@ -1,37 +1,99 @@
 .room {
-  position: relative;
   width: 31%;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   margin-bottom: 2rem;
 }
 
 .room-image {
   position: relative;
   overflow: hidden;
-  height: 12rem;
+  height: 10rem;
+  background: var(--saltwater);
 }
 
 .room-image img {
   display: flex;
   object-fit: cover;
   width: 100%;
+  height: 100%;
+  transition: all .3s ease;
 }
 
-.room-module-price {
+.room-image:hover img {
+  opacity: 0.4;
+}
+
+.room-price {
   position: absolute;
   top: 0;
   left: 0; 
   background: rgba(35, 49, 103, 0.8);
   color: white;
   border-radius: 0 0 10px 0;
-  padding: .25rem;;
+  padding: .25rem;
+  transition: all .3s ease
 }
 
-.room-module-price h6 {
+.room-image:hover .room-price {
+  /* background: white;
+  color: var(--saltwater); */
+  transform: translate(-100%,-100%);
+}
+
+.room-price h6 {
   font-size: 1rem;
 }
 
-.room-module-price p {
+.room-price p {
   font-size: .75rem;
+  color: white;
+}
+
+.room-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.room-link span {
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transition: all .2s ease;
+}
+
+.room-image:hover .room-link span {
+  opacity: 1;
+}
+
+.room-link span svg {
+  transition: inherit;
+  transition-delay: .2s;
+  width: 20px;
+  height: auto;
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.room-image:hover .room-link span svg {
+  opacity: 1;
+  transform: none;
+}
+
+.room h4 {
+  color: var(--saltwater);
+  margin-top: 1rem;
+  text-transform: capitalize;
 }
 
 @media (max-width: 767px) {

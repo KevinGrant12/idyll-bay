@@ -46,6 +46,11 @@ h5 {
   font-size: 1em;
 }
 
+p {
+  color: #adadad;
+  margin-bottom: 1em;
+}
+
 button {
   border: none;
   background: none;

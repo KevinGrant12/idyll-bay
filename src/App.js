@@ -8,6 +8,7 @@ import Error from './pages/Error';
 import SingleRoom from './pages/SingleRoom';
 import { Route, Switch } from 'react-router-dom';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/experiences/" component={Experiences} />
         <Route component={Error}/>
       </Switch>
+      <Footer />
     </React.Fragment>
   );
 }

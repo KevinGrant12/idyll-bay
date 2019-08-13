@@ -6,6 +6,7 @@ import FrameButton from '../components/Buttons/FrameButton';
 import Description from '../components/Description/Description';
 import Services from '../components/Services/Services';
 import FeaturedRooms from '../components/FeaturedRooms/FeaturedRooms';
+import Specials from '../components/Specials/Specials';
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <Description />
       <Services />
       <FeaturedRooms />
+      <Specials />
     </React.Fragment>
   );
 };

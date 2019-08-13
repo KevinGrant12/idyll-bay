@@ -13,7 +13,7 @@ export default class FeaturedRooms extends React.Component {
     });
     return(
       <section className="featuredRooms">
-        <h2>Featured Bungalows</h2>
+        <h2>Featured Rooms</h2>
         <div className="container">
           {loading ? <Loading /> : rooms}
         </div>
