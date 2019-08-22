@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   background: url('../../images/defaultHero.jpg') center/cover no-repeat;
+  position: relative;
 }
 
 .roomsHero {

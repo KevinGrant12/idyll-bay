@@ -9,7 +9,6 @@
   list-style-type: none;
   font-family: 'Karla', sans-serif;
 }
-
 :root {
   --bronzer: #CDB085;
   --saltwater: #233167;
@@ -17,53 +16,49 @@
   --sunset: #F065A0;
   --water: #48C3CD;
 }
-
 body {
   font-size: 16px;
 }
-
 h1 {
   font-size: 3em;
   margin-bottom: .5em;
   line-height: 1;
 }
-
 h2 {
   font-size: 2em;
   margin-bottom: .5em;
 }
-
 h3 {
   font-size: 1.5em;
   margin-bottom: .5em;
 }
-
 h4 {
   font-size: 1.2em;
 }
-
 h5 {
   font-size: 1em;
 }
-
 p {
   color: #adadad;
   margin-bottom: 1em;
 }
-
 button {
   border: none;
   background: none;
   outline: none;
   cursor: pointer;
 }
-
 .container {
   margin-right: auto;
   margin-left: auto;
   padding: 0 1rem;
 }
-
+.error {
+  padding: 4rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 @media (min-width: 576px) {
   .container {
     max-width: 540px;

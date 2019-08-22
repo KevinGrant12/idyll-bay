@@ -13,6 +13,7 @@ const Home = () => {
     <React.Fragment>
       <Hero>
         <HeroBanner
+          className="heroBanner"
           title="private island paradise"
           subtitle="bungalows starting at $399"  
         >

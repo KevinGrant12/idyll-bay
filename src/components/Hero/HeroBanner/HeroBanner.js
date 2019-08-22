@@ -1,11 +1,11 @@
 import React from 'react';
 import './HeroBanner.css';
 
-const HeroBanner = ({ title, subtitle, children }) => {
+const HeroBanner = ({ title, subtitle, children, className }) => {
   return (
-    <div className="heroBanner">
-    <h3>{subtitle}</h3>
-    <hr/>
+    <div className={className}>
+      <h3>{subtitle}</h3>
+      <hr/>
       {children}
     </div>
   );

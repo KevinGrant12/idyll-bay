@@ -9,6 +9,13 @@
   transform: translateX(-50%);
 }
 
+.heroBanner.heroBanner_single {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  transform: none;
+}
+
 .heroBanner:before {
   content: '';
   position: absolute;

@@ -9,6 +9,7 @@ import SingleRoom from './pages/SingleRoom';
 import { Route, Switch } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import './pages/Pages.css';
 
 function App() {
   return (
